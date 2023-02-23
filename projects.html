@@ -1,0 +1,115 @@
+<!--
+=================================================================================================================
+; Title: Personal Portfolio
+; Author: Shane Hingtgen
+; Bellevue University
+; Date: 02/21/23
+; Description: We create a personal portfolio
+; Work Cited:
+    Web 330 HTML, CSS, and JavaScript Requirements
+    Web 330 Personal Portfolio
+=================================================================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google fonts 'Oswald' from previous class-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../public/styles/site.css" type="text/css" rel="stylesheet" />
+    <!-- JavaScript references -->
+    <script src="_header.js"></script>
+    <script src="_footer.js"></script>
+    <title>Shane Hingtgen's Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- <header>
+      <div id="banner">
+        <div class="card">
+          <h1>Shane Hingtgen's Personal Portfolio</h1>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="database.html">Database Diagrams</a>
+        <a href="apitest.html">API Unit Tests</a>
+      </nav>
+    </header> -->
+    <header-component></header-component>
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="app-header">Projects from School</div>
+          <div class="grid-container">
+            <div class="grid-item">
+              <div class="grid-title">Project Landing Pages</div>
+              <ul>
+                <li>
+                  <a href="https://shaneh92.github.io/web-231/" target="_blank"
+                    >WEB 231’s GitHub Repository</a
+                  >
+                </li>
+                <li>
+                  <a href="https://shaneh92.github.io/web-330/" target="_blank"
+                    >WEB 330’s GitHub Repository</a
+                  >
+                </li>
+                <li>
+                  WEB 420’s Capstone Project
+                  <!-- <a href="" target="_blank">WEB 420’s Capstone Project</a> -->
+                </li>
+              </ul>
+            </div>
+            <div class="grid-item">
+              <div class="grid-title">Projects from WEB 425</div>
+              <ul>
+                <li>
+                  Composer App
+                  <!-- <a href="" target="_blank">Composer App</a> -->
+                </li>
+                <li>
+                  GPA Calculator App
+                  <!-- <a href="" target="_blank">GPA Calculator App</a> -->
+                </li>
+                <li>
+                  In-N-Out Books
+                  <!-- <a href="" target="_blank">In-N-Out Books</a> -->
+                </li>
+              </ul>
+            </div>
+            <div class="grid-item">
+              <div class="grid-title">Projects from WEB 450</div>
+              <ul>
+                <li>
+                  nodebucket
+                  <!-- <a href="" target="_blank">nodebucket</a> -->
+                </li>
+                <li>
+                  Bob's Computer Repair Shop
+                  <!-- <a href="" target="_blank">Bob's Computer Repair Shop</a> -->
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <div class="foot">
+      <p>
+        Copyright &copy; 2021
+        <a href="https://www.bellevue.edu/">Bellevue University</a>
+      </p>
+    </div> -->
+    <footer-component></footer-component>
+  </body>
+</html>

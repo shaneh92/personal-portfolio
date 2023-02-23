@@ -1,0 +1,213 @@
+<!--
+=================================================================================================================
+; Title: Personal Portfolio
+; Author: Shane Hingtgen
+; Bellevue University
+; Date: 02/21/23
+; Description: We create a personal portfolio
+; Work Cited:
+    Web 330 HTML, CSS, and JavaScript Requirements
+    Web 330 Personal Portfolio
+=================================================================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google fonts 'Oswald' from previous class-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../public/styles/site.css" type="text/css" rel="stylesheet" />
+    <!-- JavaScript references -->
+    <script src="_header.js"></script>
+    <script src="_footer.js"></script>
+    <title>Shane Hingtgen's Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- <header>
+      <div id="banner">
+        <div class="card">
+          <h1>Shane Hingtgen's Personal Portfolio</h1>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="database.html">Database Diagrams</a>
+        <a href="apitest.html">API Unit Tests</a>
+      </nav>
+    </header> -->
+    <header-component></header-component>
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="app-header">Resume</div>
+          <a href="../public/important/resume-shane2023.docx" class="btn"
+            >Download</a
+          >
+          <div class="grid-container lists">
+            <div class="grid-item">
+              <h2 class="grid-title">Shane Hingtgen</h2>
+              <hr />
+              <div class="card-content">
+                <h3>Bellevue University, online. Graduates May 2024</h3>
+                <p>B.S. Web Development</p>
+                <br />
+                <h3>
+                  Kirkwood Community College, Cedar Rapid, IA Graduated May 2014
+                </h3>
+                <p>A.A.S Energy Production and Distribution Technologies</p>
+                <p>Dean’s List and Honor's Student Program</p>
+              </div>
+              <hr />
+              <div class="card">
+                <h3>WORK EXPERIENCE</h3>
+                <div class="card-content">
+                  <h4>Distribution Field Designer</h4>
+                  <h5>Ulteig Engineers, Cedar Rapids, IA Sept. 2019-present</h5>
+                  <ul>
+                    <li>Manage own projects from start to finish</li>
+                    <li>
+                      Using Survey GPS equipment collect data on all types of
+                      electrical equipment, and stake all jobs for construction.
+                    </li>
+                    <li>
+                      Using CAD or ArcGIS to design layouts based on our clients
+                      scope of work
+                    </li>
+                    <li>
+                      Size transformers, anchors, poles, while keeping
+                      compliance with all client, local and national code
+                      requirements
+                    </li>
+                    <li>Train and assist new employees</li>
+                    <li>
+                      Communicate daily with clients and coworkers on project
+                      related tasks
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="card-content">
+                  <h4>Wind Turbine Technician II</h4>
+                  <h5>Nextera Energy, Carlock, IL Oct. 2015-2019</h5>
+                  <ul>
+                    <li>
+                      Conduct maintenance on slip rings, large circuit breakers,
+                      gearboxes and generators
+                    </li>
+                    <li>
+                      Identified faulty turbines through SCADA while using
+                      schematics, GE troubleshooting guides and diagnostic
+                      programs
+                    </li>
+                    <li>
+                      Installed circuit breakers, power converters, control
+                      modules and communication devices
+                    </li>
+                    <li>
+                      Complied with all Safety and Lock Out procedures, using
+                      PPE while looking out for colleagues using a minute by
+                      minute mindset
+                    </li>
+                    <li>
+                      Executed switching orders for padmount transformers,
+                      switchgear and circuit breakers
+                    </li>
+                    <li>
+                      Monitored site inventory, while guaranteeing SOX
+                      compliance and corresponding with remote Business Techs
+                      daily
+                    </li>
+                    <li>
+                      Mentored new employees ensuring they work safe and
+                      productivity
+                    </li>
+                    <li>
+                      Acquired work orders daily, completing each task safely as
+                      a team in a prompt and efficient manner
+                    </li>
+                    <li>Coordinated Contractor safety training</li>
+                    <li>
+                      Handled approved chemical list and verified SDS was
+                      compliant
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="card-content">
+                  <h4>Maintenance Mechanic</h4>
+                  <h5>McLanahan, Cedar Rapids, IA Oct.2014-June 2015</h5>
+                  <ul>
+                    <li>
+                      Administered preventative maintenance, breakdown
+                      maintenance and diagnose machine problems using manuals
+                      and schematics
+                    </li>
+                    <li>
+                      Detected minor problems on Cranes and Hoists, ½ Ton – 60
+                      Ton; Cables, Chains, Festoon wire, Controls and rewiring
+                      to various voltages throughout facility
+                    </li>
+                    <li>
+                      Carried out Facility Maintenance, Installing new and
+                      updating old conduit runs, pulling wire and terminating
+                      connections on most minor electrical components
+                    </li>
+                    <li>
+                      Wired Motors on mineral processing machines and CNC
+                      machines
+                    </li>
+                    <li>
+                      Adhered to all Lock Out-Tag Out Procedures & attended
+                      monthly safety meetings
+                    </li>
+                    <li>
+                      Routed contractors and ensured tasks were completed in a
+                      safe and timely fashion
+                    </li>
+                  </ul>
+                </div>
+                <hr />
+                <div class="card-content">
+                  <h4>Industrial Electrician</h4>
+                  <h5>
+                    Price Industrial Electric, Robins, IA June 2014 – Oct. 2014
+                  </h5>
+                  <ul>
+                    <li>
+                      Assemble Cable Tray, Conduit Runs, and pulling various
+                      wire sizes
+                    </li>
+                    <li>Terminating Connections on various types of devices</li>
+                    <li>
+                      Underground IE; Laying and assembling long conduit runs in
+                      trenches
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <footer-component></footer-component>
+      <!-- <div class="foot">
+        <p>
+          Copyright &copy; 2021
+          <a href="https://www.bellevue.edu/">Bellevue University</a>
+        </p>
+      </div> -->
+    </footer>
+  </body>
+</html>

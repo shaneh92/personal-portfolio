@@ -1,0 +1,123 @@
+<!--
+=================================================================================================================
+; Title: Personal Portfolio
+; Author: Shane Hingtgen
+; Bellevue University
+; Date: 02/21/23
+; Description: We create a personal portfolio
+; Work Cited:
+    Web 330 HTML, CSS, and JavaScript Requirements
+    Web 330 Personal Portfolio
+=================================================================================================================
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google fonts 'Oswald' from previous class-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../public/styles/site.css" type="text/css" rel="stylesheet" />
+    <!-- JavaScript references -->
+    <script src="_header.js"></script>
+    <script src="_footer.js"></script>
+    <title>Shane Hingtgen's Personal Portfolio</title>
+  </head>
+  <body>
+    <!-- <header>
+      <div id="banner">
+        <div class="card">
+          <h1>Shane Hingtgen's Personal Portfolio</h1>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="database.html">Database Diagrams</a>
+        <a href="apitest.html">API Unit Tests</a>
+      </nav>
+    </header> -->
+    <header-component></header-component>
+    <main>
+      <div class="container">
+        <div class="card">
+          <div class="app-header">About Shane Hingtgen</div>
+          <div class="card-content">
+            <h3>Biography of Shane Hingtgen</h3>
+            <figure>
+              <img
+                src="../public/images/family.jpeg"
+                alt="Shane and his family"
+                title="Shane and his family"
+              />
+              <figcaption>Shane and his family</figcaption>
+            </figure>
+            <p>
+              Shane Anthony Hingtgen currently works as a Distribution Field
+              Designer at an engineering firm. He is currently going to school
+              at Bellevue University to become a Web Developer and will graduate
+              in the spring of 2024. Previously he was working as a Wind
+              Technician and would travel around troubleshooting and maintaining
+              wind turbines. From an early age he has never had a fear of
+              heights, according to his parents, at age six he snuck up the
+              ladder behind his father who was installing a satellite dish at
+              their house.
+            </p>
+            <figure>
+              <img
+                src="../public/images/greatview.jpg"
+                alt="An interesting view from a wind turbine"
+                title="An interesting view from a wind turbine"
+              />
+              <figcaption>An interesting view from a wind turbine</figcaption>
+            </figure>
+            <p>
+              Shane grew up camping every weekend with his family and they would
+              go on vacations to national parks over summer break while in high
+              school, it was a fantastic experience. One day he hopes to bring
+              his wife and kids on those same vacations and even more of them
+              around the country. His hobbies are fishing, hunting, hiking and
+              gaming with his brothers. Shane is excited for the future, and
+              cannot wait to share the enjoyment of his hobbies with his kids
+              when they get old. Of course Shane and his Wife, Ally only have a
+              one year old currently, but plan on having more kids upon
+              graduation in the Spring of 2024. Shane is also planning on
+              volunteering in wildlife conservation groups after graduation
+              because he loves the outdoors and its incredible whenever people
+              get together to open more public wildlife places for everyone to
+              enjoy. Some of Shane's favorite places to visit have been North
+              East Iowa, the Black Hills, Yellowstone National Park and the
+              Grand Tetons National Park.
+            </p>
+
+            <figure>
+              <img
+                src="../public/images/kayakdog.jpeg"
+                alt="Kayaking with his dog"
+                title="Kayaking with his dog"
+              />
+              <figcaption>Shane and Bella Kayaking</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- <div class="foot">
+        <p>
+          Copyright &copy; 2021
+          <a href="https://www.bellevue.edu/">Bellevue University</a>
+        </p>
+      </div> -->
+      <footer-component></footer-component>
+    </footer>
+  </body>
+</html>
