@@ -1,3 +1,16 @@
+/*
+=================================================================================================================
+; Title: Personal Portfolio
+; Author: Shane Hingtgen
+; Bellevue University
+; Date: 02/21/23
+; Description: We create a personal portfolio, this is a partial
+; Work Cited:
+    Web 330 HTML, CSS, and JavaScript Requirements
+    Web 330 Personal Portfolio
+=================================================================================================================
+*/
+
 class Header extends HTMLElement {
   constructor() {
     super();
